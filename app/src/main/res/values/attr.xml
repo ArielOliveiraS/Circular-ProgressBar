@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FastLoadingButton">
+        <attr name="text" format="string"/>
+        <attr name = "lb_buttonColor" format = "color"/>
+        <attr name = "lb_loaderColor" format = "color"/>
+        <attr name = "lb_shadowColor" format = "color"/>
+        <attr name = "lb_cornerRadius" format ="dimension"/>
+        <attr name = "lb_shadowHeight" format = "dimension"/>
+        <attr name = "lb_loaderWidth" format = "dimension"/>
+        <attr name = "lb_loaderMargin" format = "dimension"/>
+        <attr name = "lb_isShadowEnable" format ="boolean" />
+        <attr name = "lb_isCircular" format = "boolean" />
+        <attr name = "lb_isLoading" format = "boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr format="float" name="maximum"/>
+        <attr format="float" name="progress"/>
+        <attr format="boolean" name="animateProgress"/>
+        <attr format="integer" name="progressAnimationDuration"/>
+        <attr format="color" name="foregroundStrokeColor"/>
+        <attr format="dimension" name="foregroundStrokeWidth"/>
+        <attr format="boolean" name="drawBackgroundStroke"/>
+        <attr format="color" name="backgroundStrokeColor"/>
+        <attr format="dimension" name="backgroundStrokeWidth"/>
+        <attr format="float" name="startAngle"/>
+        <attr format="boolean" name="indeterminate"/>
+        <attr format="float" name="indeterminateMinimumAngle"/>
+        <attr format="integer" name="indeterminateSweepAnimationDuration"/>
+        <attr format="integer" name="indeterminateRotationAnimationDuration"/>
+        <attr format="enum" name="foregroundStrokeCap">
+            <enum name="butt" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="square" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
